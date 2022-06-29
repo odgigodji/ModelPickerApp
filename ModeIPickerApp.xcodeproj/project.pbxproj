@@ -14,6 +14,7 @@
 		FA8E5FCB286B2C5300F3D076 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA8E5FC8286B2C5200F3D076 /* chair_swan.usdz */; };
 		FA8E5FCC286B2C5300F3D076 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA8E5FC9286B2C5300F3D076 /* toy_biplane.usdz */; };
 		FA8E5FCD286B2C5300F3D076 /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA8E5FCA286B2C5300F3D076 /* toy_car.usdz */; };
+		FAB7D95B286C76B10099B74F /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = FAB7D95A286C76B10099B74F /* FocusEntity */; };
 		FAF70F76286C3B8700852935 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF70F75286C3B8700852935 /* Model.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB7D95B286C76B10099B74F /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +105,9 @@
 			dependencies = (
 			);
 			name = ModeIPickerApp;
+			packageProductDependencies = (
+				FAB7D95A286C76B10099B74F /* FocusEntity */,
+			);
 			productName = ModeIPickerApp;
 			productReference = FA8E5FB4286B273A00F3D076 /* ModeIPickerApp.app */;
 			productType = "com.apple.product-type.application";
@@ -131,6 +136,9 @@
 				Base,
 			);
 			mainGroup = FA8E5FAB286B273A00F3D076;
+			packageReferences = (
+				FAB7D959286C76B10099B74F /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = FA8E5FB5286B273A00F3D076 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -371,6 +379,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAB7D959286C76B10099B74F /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAB7D95A286C76B10099B74F /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAB7D959286C76B10099B74F /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA8E5FAC286B273A00F3D076 /* Project object */;
 }
