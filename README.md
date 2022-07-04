@@ -1,5 +1,5 @@
 # ModelPickerApp
-App with SwiftUI and ARKit
+## App with SwiftUI and ARKit
 
 Можем выбирать из 3х моделей, которые я взял с оф сайта apple
 
