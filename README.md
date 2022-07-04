@@ -1,9 +1,10 @@
 # ModelPickerApp
 ## App with SwiftUI and ARKit
 
-Можем выбирать из 3х моделей, которые я взял с оф сайта apple
 
 [screenShot](https://i.ibb.co/8sYTbY1/ezgif-com-gif-maker-11.gif)
+Можем выбирать из 3х моделей, которые я взял с оф сайта apple
+
 ![screenShot](https://i.ibb.co/8sYTbY1/ezgif-com-gif-maker-11.gif)
 
 ### source
