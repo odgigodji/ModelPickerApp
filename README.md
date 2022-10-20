@@ -6,4 +6,4 @@
 Можем выбирать из 3х моделей, которые я взял с оф сайта apple
 
 ### source
-[youtube](https://www.youtube.com/watch?v=9R_G0EI-UoI&ab_channel=RealitySchool)
+[The Ultimate SwiftUI + RealityKit Tutorial](https://www.youtube.com/watch?v=9R_G0EI-UoI&ab_channel=RealitySchool)
